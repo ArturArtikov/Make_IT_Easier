@@ -44,4 +44,4 @@
 3. [Markdown - бейджы большие](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file)
 4. [Beautiful GitHub Profile - как примеры красивых наполнений](https://github.com/rzashakeri/beautify-github-profile)
 5. [Генератор изображения - заголовка для файла README.md](https://leviarista.github.io/github-profile-header-generator/)
-6. []()
+6. [Школа глубокого анализа данных МФТИ](https://dls.samcs.ru/courses)
