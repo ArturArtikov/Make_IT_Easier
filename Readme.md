@@ -37,4 +37,11 @@
    * Специальные, созданные нами, функции для внешнего представления функций
    * Деревья решений
    * Ансамбли, бэггинг, случайный лес
-   * 
+
+Чтобы оформить страницу, можно использовать следующие данные: 
+1. [Markdown - бейджи](https://github.com/Ileriayo/markdown-badges)
+2. [Диаграмки на основную страницу](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file)
+3. [Markdown - бейджы большие](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file)
+4. [Beautiful GitHub Profile - как примеры красивых наполнений](https://github.com/rzashakeri/beautify-github-profile)
+5. [Генератор изображения - заголовка для файла README.md](https://leviarista.github.io/github-profile-header-generator/)
+6. []()
