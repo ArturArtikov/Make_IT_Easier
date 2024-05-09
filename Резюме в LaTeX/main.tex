@@ -1,0 +1,123 @@
+\documentclass{article}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage{graphicx}
+
+\input{setup/preamble.sty}
+\input{setup/macros.sty}
+
+\begin{document}
+    \begin{tcolorbox}[height=0.19\textheight,colframe=white,colback=white]
+        \begin{minipage}{0.81\textwidth} 
+            \vspace{3em}
+            \LARGE{\name{Артур Артиков}{}}
+            \vspace{1em}
+            \Large{DATA SCIENTIST}
+            \newline
+            \newline
+            \normalsize{\address{Москва, Россия}{}}
+            \vspace{0.3em}
+            \email{artikovartur@internet.ru}
+            \vspace{0.3em}
+            \phone{+7 965 161-18-88}
+            \newline
+            \faTelegram{ \href{https://t.me/ArturArtikov}{ ArturArtikov}}
+            \faGithub{ \href{https://github.com/ArturArtikov/Portfolio}{ Data Science Portfolio}}
+            \newline
+        \end{minipage}
+        \begin{minipage}{0.177\textwidth}
+            \includegraphics[width=1\textwidth, trim={0 0.8cm 0cm 0}, clip]{photo.png} % Picture
+        \end{minipage} \hfill
+        \subsection*{}
+    \end{tcolorbox}
+
+    \begin{minipage}{0.7125\textwidth} % Main Panel (e.g. Education, Work Experience)
+        \begin{tcolorbox}[height=0.8\textheight, grow to left by=0.55cm,colframe=white,colback=white]
+
+            %%%%%%%%%%%% Опыт работы %%%%%%%%%%%%
+            \subsection*{\Large{Опыт работы}}
+
+            \entryDesc{02.2024 - н.в.}
+            {Репетитор по программированию на Python (6-11 класс)}{в Онлайн-школе Фоксфорд}
+            {\begin{compactitem}[-]
+                \item Создание учебных программ для обучения программированию учеников 6-11 класса
+                \item Проведение уроков на онлайн-платформе
+                \item Создание и проверка домашних заданий, ревью кода
+            \end{compactitem}
+            }
+
+            \entryDesc{03.2024 - н.в.}
+            {Data Scientist}{участие в Хакатонах и Кейс-чемпионатах}
+            {\begin{compactitem}[-]
+                \item Проводил визуальный анализ данных с помощью библиотек Seaborn, Plotly
+                \item Работал с датасетами с помощью Pandas, преобразовывал данные, проводил EDA               
+                \item Создавал модели машинного обучения с помощью LightGBM, CatBoost, XGBoost
+                \item Налаживал работу команды, организовывал рабочий процесс с помощью Trello, Google Calendar, Zoom
+                \item Оформлял репозитории в GitHub, создавал презентации, проводил защиту проектов
+            \end{compactitem}
+            }
+
+            \entryDesc{06.2023}
+            {Backend Python Developer (Практика)}{в МАДИ}
+            {\begin{compactitem}[-]
+                \item Создал чат-бота в Telegram
+                \item Прописал команды чат-бота с помощью библиотеки pyTelegramBotAPI
+                \item Подключил к боту библиотеку TensorFlow, для генерации ответов на заданный пользователем вопрос
+            \end{compactitem}
+            }
+            
+            \subsection*{\Large{Сертификаты и Дипломы}}
+            {Названия и активные ссылки:}
+            {\begin{compactitem}[*]
+                \item{\href{https://disk.yandex.ru/i/u70FDtYfRM2Xqg}{Alfa FinU Hack. Диплом финалиста}}
+                \item{\href{https://disk.yandex.ru/i/zvw_n36lRkEEbQ}{Axenix Business Cup. Сертификат полуфиналиста}}
+                \item{\href{https://disk.yandex.ru/i/OpMpHdrC_FpKSw}{Changellenge Cup IT. Диплом HQA}}
+                \item{\href{https://disk.yandex.ru/i/iD6kRkfoQEhBUw}{Changellenge Cup Russia. Диплом участника}}
+                \item{\href{https://disk.yandex.ru/i/PZdSphoZOyIMpg}{IT Purple Hack. Сертификат участника}}
+                \item{\href{https://disk.yandex.ru/i/5ZDqyT28396w3g}{ML TalentMatch. Сертификат участника}}
+                \item{\href{https://disk.yandex.ru/i/bd6KZTIkSCeq2w}{Мегафон х СПбГУ. Олимпиада для первых. Сертификат полуфиналиста}}
+            \end{compactitem}
+            }
+
+            %%%%%%%%%%%% Образование %%%%%%%%%%%%
+            \subsection*{\Large{Образование}}
+            \large{\textbf{\vspace{1mm}Прикладная математика, Бакалавр}}\hfill\hfill
+            \newline
+            \small{МОСКОВСКИЙ АВТОМОБИЛЬНО-ДОРОЖНЫЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ (МАДИ)}
+
+            \subsection*{\Large{Курсы}}
+            {\begin{compactitem}[]
+                \item{\normalsize{\textbf{SkillFactory}{ - специализация Data Science}}}
+                \newline
+                \item{\normalsize{\textbf{ЦБ РФ}{ - Финансовые технологии и инновации в платежах}}}
+            \end{compactitem}
+            }
+
+        \end{tcolorbox}
+    \end{minipage}
+    \begin{minipage}{0.23\textwidth} % Side Panel (e.g. Skills, Links, Languages, etc.)
+        \begin{tcolorbox}[height=0.8\textheight, grow to right by=0.5cm, colback=white,colframe=white,arc=1mm]
+            % Skills, the skill level is drawn as bars, input: skill name and an array starting from 0 and ending before 4
+                
+            \subsection*{\Large{Языки}}
+                \skill{Русский C1}{5}
+                \skill{Немецкий B2}{4}
+                \skill{Английский B1}{3}
+
+            \subsection*{\Large{Навыки}}
+                \skill{Python}{5}
+                \skill{PostgreSQL}{4}
+                \skill{Pandas}{5}
+                \skill{NumPy}{5}
+                \skill{Matplotlib}{5}
+                \skill{Seaborn}{5}
+                \skill{Plotly}{4}
+                \skill{SciPy}{4}
+                \skill{Statsmodels}{4}
+                \skill{Sklearn}{5}
+                \skill{CatBoost}{4}
+                
+        \end{tcolorbox}
+    \end{minipage}
+
+\end{document}
