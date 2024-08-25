@@ -8,16 +8,15 @@
    * TXT
 2. Функции визуализации на всех языках программировани
    * Seaborn
-     * Коробчатая диаграмма (boxplot)
-     * Гистограмма (histplot)
      * Круговая (plt.pie + https://www.codecamp.ru/blog/seaborn-pie-chart/ )
+     * barplot
+     * Гистограмма (histplot)
+     * countplot
+     * Коробчатая диаграмма (boxplot)
      * Рассеяния (scatterplot)
+     * pairplot
      * Виолончельная диаграмма (violinplot)
      * Тепловая карта (heatmap) - тут можно разгуляться по-полной, т.к. я прошел целый туториал и его можно использовать
-     * pairplot
-     * lineplot
-     * barplot
-     * countplot
    * Plotly
      * Трехмерная диаграмма рассеяния (https://habr.com/ru/companies/skillfactory/articles/506974/)
      * Картограмма
