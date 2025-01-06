@@ -1,0 +1,150 @@
+# Please keep this in alphabetical order
+Altair==5.4.0
+Babel
+Boruta
+Cartopy
+ImageHash
+Janome
+PyArabic
+PyUpSet
+Pympler
+Rtree
+shapely==2
+SimpleITK
+# b/302136621: Fix eli5 import for learntools, newer version require scikit-learn > 1.3
+TPOT==0.12.1
+Theano
+Wand
+annoy
+arrow
+bayesian-optimization
+boto3
+catboost
+category-encoders
+cesium
+comm
+cytoolz
+dask-expr
+datasets
+datashader
+deap
+dipy
+docker
+easyocr
+eli5
+emoji
+fasttext
+featuretools
+fiona
+fury
+fuzzywuzzy
+geojson
+# geopandas > v0.14.4 breaks learn tools
+geopandas==v0.14.4
+google-cloud-aiplatform
+# google-cloud-automl 2.0.0 introduced incompatible API changes, need to pin to 1.0.1
+google-cloud-automl==1.0.1
+# b/315753846: Unpin translate package.
+google-cloud-translate==3.12.1
+google-cloud-videointelligence
+google-cloud-vision
+gpxpy
+h2o
+haversine
+hep-ml
+igraph
+ipympl
+ipywidgets==8.1.5
+isoweek
+jedi
+# b/276358430: fix Jupyter lsp freezing up the jupyter server
+jupyter-lsp==1.5.1
+# b/333854354: pin jupyter-server to version 2.12.5; later versions break LSP (b/333854354)
+jupyter_server==2.12.5
+jupyterlab
+jupyterlab-lsp
+kaggle-environments
+kagglehub==0.3.4
+# Keras 3.6 broke test_keras.py > test_train > keras.datasets.mnist.load_data():
+# See https://github.com/keras-team/keras/commit/dcefb139863505d166dd1325066f329b3033d45a
+keras==3.6
+keras-cv
+keras-nlp
+keras-tuner
+kornia
+langid
+leven
+# b/328788268: libpysal 4.10 seems to fail with "module 'shapely' has no attribute 'Geometry'. Did you mean: 'geometry'"
+libpysal==4.9.2
+lime
+line_profiler
+mamba
+mlcrate
+mne
+mpld3
+# b/274619697: learntools requires a specific nbconvert right now
+nbconvert==6.4.5
+nbdev
+nilearn
+olefile
+onnx
+openslide-bin
+openslide-python
+optuna
+pandas-profiling
+pandasql
+papermill
+path
+path.py
+pdf2image
+plotly-express
+preprocessing
+pudb
+pyLDAvis
+pycryptodome
+pydegensac
+pydicom
+pydub
+pyemd
+pyexcel-ods
+pymc3
+pymongo
+pypdf
+pytesseract
+python-lsp-server
+pytorch-ignite
+pytorch-lightning
+qgrid
+qtconsole
+ray
+rgf-python
+s3fs
+ # b/302136621: Fix eli5 import for learntools
+scikit-learn==1.2.2
+# Scikit-learn accelerated library for x86
+scikit-learn-intelex==2023.0.1
+scikit-multilearn
+scikit-optimize
+scikit-plot
+scikit-surprise
+# Also pinning seaborn for learntools
+seaborn==0.12.2
+git+https://github.com/facebookresearch/segment-anything.git
+# b/329869023 shap 0.45.0 breaks learntools
+shap==0.44.1
+squarify
+tensorflow-cloud
+tensorflow-io
+tensorflow-text
+tensorflow_decision_forests
+timm
+torchinfo
+torchmetrics
+tsfresh
+vtk
+wandb
+wavio
+# b/350573866: xgboost v2.1.0 breaks learntools
+xgboost==2.0.3
+xvfbwrapper
+ydata-profiling
